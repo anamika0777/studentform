@@ -1,0 +1,67 @@
+.form-div {
+    margin-top: 30px;
+    padding: 10px;
+}
+.image-div {
+    height: 150px;
+    width: 150px;
+    float: left;
+    margin-bottom: 36px;
+}
+input[type=text] {
+    width: 100%;
+}
+label.mat-checkbox-layout {
+    width: 32px !important;
+    height: 65px !important;
+}
+.carddiv {
+    box-shadow: antiquewhite;
+    border: 1px solid;
+    display: table;
+    background: #fff;
+    padding: 15px;
+    width: 100%;
+    box-shadow: 5px 10px 18px #888888;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+input {
+    margin-bottom: 10px;
+  
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+i.fas.fa-check {
+    color: #00da09;
+    font-size: 30px;
+}
+i.fas.fa-times {
+    font-size: 30px;
+    color: #ea200a;
+}
+input[type="number"] {
+    width: 100%;
+}
+input[type="email"] {
+    width: 100%;
+}
+input[type="date"] {
+    width: 100%;
+}
+.align-check {
+    position: relative;
+    top: 18px;
+}
+.inline {
+    display: inline-flex;
+}
+input.right {
+    width: 42px;
+    height: 25px;
+}
+.align-check {
+    margin-bottom: 11px;
+}
