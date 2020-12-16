@@ -4,9 +4,17 @@
 }
 .image-div {
     height: 150px;
+    margin-left: 32%;
     width: 150px;
-    float: left;
     margin-bottom: 36px;
+}
+button.mat-raised-button.mat-button-base.mat-primary {
+    border: none;
+    background: #1b7fb9;
+    width: 110px;
+    height: 41px;
+    margin-top: 20px;
+    margin-bottom: 45px;
 }
 input[type=text] {
     width: 100%;
@@ -15,6 +23,10 @@ label.mat-checkbox-layout {
     width: 32px !important;
     height: 65px !important;
 }
+::ng-deep .mat-focused .mat-form-field-placeholder{
+
+    color:red;
+  }
 .carddiv {
     box-shadow: antiquewhite;
     border: 1px solid;
@@ -42,6 +54,7 @@ i.fas.fa-times {
     font-size: 30px;
     color: #ea200a;
 }
+
 input[type="number"] {
     width: 100%;
 }
@@ -62,6 +75,9 @@ input.right {
     width: 42px;
     height: 25px;
 }
+.secdiv {
+    margin-top: 30px;
+}
 .align-check {
-    margin-bottom: 11px;
+    margin-bottom: 22px;
 }
